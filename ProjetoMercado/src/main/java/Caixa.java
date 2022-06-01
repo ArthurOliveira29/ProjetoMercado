@@ -42,3 +42,4 @@ public class Caixa {
         return tipoPagamento;
     }    
 }
+//teste

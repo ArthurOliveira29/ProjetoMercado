@@ -40,7 +40,5 @@ public class Caixa {
 
     public String getTipoPagamento() {
         return tipoPagamento;
-    }
-    
-    
+    }    
 }

@@ -19,9 +19,9 @@ public class Testador {
         Calendar c = Calendar.getInstance();
         c.getTime();
         teste.organizaPrateleira();
-        teste.addProdPrateleira("feijao", 8, c, 1);
-        teste.addProdPrateleira("arroz", 10, c, 2);
-        teste.addProdPrateleira("lasanha", 30, c, 3);
+        teste.addProdPrateleira("feijao", 8, c, 1, 10);
+        teste.addProdPrateleira("arroz", 10, c, 2, 10);
+        teste.addProdPrateleira("lasanha", 30, c, 3, 10);
         teste.organizaPrateleira();
         System.out.println(teste.getProdutos().get(0).getNome());
         System.out.println(teste.getProdutos().get(1).getNome());

@@ -39,8 +39,8 @@ public class Prateleira {
         return -1;
     }
     
-    public void addProdPrateleira(String nome, double preco, Calendar validade, int idProduto){
-        Produto x = new Produto(nome,preco,validade,idProduto);
+    public void addProdPrateleira(String nome, double preco, Calendar validade, int idProduto, double quantidade){
+        Produto x = new Produto(nome,preco,validade,idProduto,quantidade);
         produtos.add(x);
     }
 

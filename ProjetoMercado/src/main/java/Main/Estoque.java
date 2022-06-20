@@ -2,7 +2,7 @@ package Main;
 
 import java.util.Calendar;
 
-public class Estoque {
+public class Estoque extends Localização {
     private String nome;
     private double preco;
     private Calendar validade;
@@ -25,7 +25,9 @@ public class Estoque {
     }
     
     public boolean checaDisponibilidade(){
+      
         return this.disponibilidade;
+    
     }
     
     public void setNome(String nome) {
